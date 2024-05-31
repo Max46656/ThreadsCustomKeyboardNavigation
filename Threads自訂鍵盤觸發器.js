@@ -1,16 +1,16 @@
 // ==UserScript==
-// @name       Threads Custom Keyboard Navigation
+// @name       Threads自訂鍵盤觸發
 // @name:zh-TW  Threads自訂鍵盤觸發
 // @name:ja     Threadsカスタムキーボードナビゲーション
 // @name:en    Threads Custom Keyboard Navigation
 // @namespace   https://github.com/Max46656
-// @version     1.10
+// @version     1.0
 // @description Customize  keyboard shortcuts for navigating Threads features
 // @description:zh-TW 自訂鍵盤快捷鍵以瀏覽Threads功能
 // @description:ja Threads 機能をトリガーするためのカスタムキーボードショートカット
 // @description:en Customize keyboard shortcuts for navigating Threads features
 // @author      Max
-// @match       https://*/*
+// @match       https://www.threads.net/*
 // @icon        https://www.google.com/s2/favicons?sz=64&domain=threads.net
 // @grant       GM_registerMenuCommand
 // @grant       GM_setValue
@@ -116,12 +116,12 @@ class inputCustomMenu{
                 "CustomizeProfile": "プロファイル ボタンをカスタマイズ",
                 "CustomizeSearch": "検索ボタンをカスタマイズ",
                 "CustomizeCreate": "新規投稿ボタンをカスタマイズします",
-                "EnterNewHomeLetter": "ホーム ボタンを置き換える英語の文字または数字を入力してください。現在:",
-                "EnterNewNotificationsLetter": "通知ボタンを置き換える英語の文字または数字を入力してください。現在:",
-                "EnterNewProfileLetter": "プロフィール ボタンを置き換える英語の文字または数字を入力してください。現在:",
-                "EnterNewSearchLetter": "検索ボタンを置き換える英語の文字または数字を入力してください。現在:",
-                "EnterNewCreateLetter": "新しい投稿ボタンを置き換えるには、英語の文字または数字を入力してください。現在:",
-                "CustomKeyError": "カスタム キー エラーです。英語の文字または数字を入力してください。",
+                "EnterNewHomeLetter": "ホーム ボタンを置き換える英語の文字または數字を入力してください。現在:",
+                "EnterNewNotificationsLetter": "通知ボタンを置き換える英語の文字または數字を入力してください。現在:",
+                "EnterNewProfileLetter": "プロフィール ボタンを置き換える英語の文字または數字を入力してください。現在:",
+                "EnterNewSearchLetter": "検索ボタンを置き換える英語の文字または數字を入力してください。現在:",
+                "EnterNewCreateLetter": "新しい投稿ボタンを置き換えるには、英語の文字または數字を入力してください。現在:",
+                "CustomKeyError": "カスタム キー エラーです。英語の文字または數字を入力してください。",
             }
         };
         return display[navigator.language][word];
