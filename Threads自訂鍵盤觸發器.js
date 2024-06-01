@@ -4,7 +4,7 @@
 // @name:ja     Threadsカスタムキーボードナビゲーション
 // @name:en    Threads Custom Keyboard Navigation
 // @namespace   https://github.com/Max46656
-// @version     1.12
+// @version     1.13
 // @description Customize  keyboard shortcuts for navigating Threads features
 // @description:zh-TW 自訂鍵盤快捷鍵以瀏覽Threads功能
 // @description:ja Threads 機能をトリガーするためのカスタムキーボードショートカット
@@ -42,9 +42,9 @@ class boardInputNavigation {
         const backButton=document.querySelector(this.backButton);
         const keyMap = {
             Home: boardButtons[0],
-            Notifications: boardButtons[1],
-            Profile: boardButtons[2],
-            Search: boardButtons[3],
+            Notifications: boardButtons[2],
+            Profile: boardButtons[3],
+            Search: boardButtons[1],
             Create: newPostButton,
             Back:backButton,
         };
